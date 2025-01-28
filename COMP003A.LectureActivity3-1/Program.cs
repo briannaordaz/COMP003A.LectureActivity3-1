@@ -30,5 +30,15 @@
         {
             Console.WriteLine("Good Evening!");
         }
+        
+        /* else statement: if the hour doesn't apply to any of the code above then
+         it'll just output "Good Night!" */
+        else
+        {
+            Console.WriteLine("Good Night!");
+        }
     }
+    
+    
+    
 }
