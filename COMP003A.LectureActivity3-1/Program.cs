@@ -1,4 +1,10 @@
-﻿namespace COMP003A.LectureActivity3_1;
+﻿// Author: Brianna Ordaz
+// Course COMP003A
+// Faculty: Jonathan Cruz
+// Purpose: Demonstrate selection statements in C#
+
+
+namespace COMP003A.LectureActivity3_1;
 
  class Program
 {
