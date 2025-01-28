@@ -37,6 +37,37 @@
         {
             Console.WriteLine("Good Night!");
         }
+        
+        //prompt for the day
+        Console.Write("Enter the day of the week: ");
+        string day = Console.ReadLine();
+        
+        /* Condition 1: Monday
+           Condition 2: Friday
+           Condition 3: Sunday
+           Default: Just another day */
+
+        // the switch statement will help respond based on the day 
+        switch (day.ToLower())
+        {
+            // if the day is "monday" it'll display "Start of the work week"
+            case "monday":
+                Console.WriteLine("Start of the work week.");
+                break;
+            //if the day is "friday" it'll display "Almost the weekend!"
+            case "friday":
+                Console.WriteLine("Almost the weekend!");
+                break;
+            //if the day is "sunday" it'll display "Relax, it's sunday"
+            case "sunday": 
+                Console.WriteLine("Relax, it's Sunday.");
+                break;
+            /*if the day is any other day except the three mentioned above
+             then the output would just be "Just another day." */
+            default:
+                Console.WriteLine("Just another day.");
+                break;
+        }
     }
     
     
