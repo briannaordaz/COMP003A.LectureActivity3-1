@@ -9,18 +9,26 @@
         Console.Write("Enter the current hour (0-23): ");
         int hour = int.Parse(Console.ReadLine());
 
-        //if statement:
+        /* if statement: if the hour is greater than or equal to 5  
+        and less than or equal to 11 then it'll display "Good Morning" */
         if (hour >= 5 && hour <= 11)
         {
             Console.WriteLine("Good Morning!");
         }
         
-        //else-if statement
+        /* else-if statement: if the hour is greater than or equal to 12 and
+         less than or equal to 17 then it'll output "Good Afternoon" */
         else if (hour >= 12 && hour <= 17)
         {
             Console.WriteLine("Good Afternoon!");
         }
+    
         
-        
+        /* else-if statement: If the hour is greater or equal to 18 and
+         less than or equal to 20 then it'll output "Good Evening" */ 
+        else if (hour >= 18 && hour <= 20)
+        {
+            Console.WriteLine("Good Evening!");
+        }
     }
 }
